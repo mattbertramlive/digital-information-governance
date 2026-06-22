@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Digital Information Governance (DIG): A Reference Framework for Defensible AI-Influenced Decisions"
+message: "If you use this framework, please cite it as below."
+type: dataset
+authors:
+  - family-names: Bertram
+    given-names: Matthew
+    orcid: "https://orcid.org/0009-0004-0720-5321"
+    affiliation: "ModalPoint; EWR Digital"
+version: "1.0"
+date-released: 2026-06-22
+license: CC-BY-4.0
+url: "https://digitalinformationgovernance.com"
+repository-code: "https://github.com/mattbertramlive/digital-information-governance"
+keywords:
+  - AI governance
+  - AI decision governance
+  - Digital Information Governance
+  - auditability
+  - AI accountability
+  - decision traceability
+identifiers:
+  - type: other
+    value: "USPTO Reg. 99559923"
+    description: "Registered trademark, DIG / Digital Information Governance"
