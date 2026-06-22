@@ -9,7 +9,7 @@ DIG is decision-centric. It is distinct from *information governance* (the recor
 - **Canonical reference site:** https://digitalinformationgovernance.com
 - **Full specification:** [docs/dig-framework-spec.md](docs/dig-framework-spec.md)
 - **Author:** Matthew Bertram, President of ModalPoint, Owner and CEO of EWR Digital, CMO of the Oil and Gas Global Network. ORCID [0009-0004-0720-5321](https://orcid.org/0009-0004-0720-5321).
-- **Trademark:** DIG® / Digital Information Governance® is a registered trademark of Matthew Bertram (USPTO Reg. 99559923).
+- **Trademark:** DIG® / Digital Information Governance® is a registered trademark of Matthew Bertram (U.S. Reg. No. 8147558, Supplemental Register, registered 17 February 2026; application serial 99559923).
 
 ## The four pillars
 
