@@ -1,6 +1,6 @@
 # Digital Information Governance (DIG): A Reference Framework for Defensible AI-Influenced Decisions
 
-**Version 1.0**
+**Version 1.1** (v1.0 June 2026; v1.1 September 2026 adds Section 9, the action layer)
 **Author:** Matthew Bertram, President of ModalPoint, Owner and CEO of EWR Digital, Chief Marketing Officer of the Oil and Gas Global Network. ORCID [0009-0004-0720-5321](https://orcid.org/0009-0004-0720-5321). Houston, Texas.
 **Canonical reference:** https://digitalinformationgovernance.com
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
@@ -76,6 +76,37 @@ Implementation follows a simple arc:
 
 The case for auditable, traceable AI decisions rests on established peer-reviewed work. Raji, Smart, and colleagues named the AI accountability gap and introduced SMACTR, a five-stage internal audit framework.[10] Mitchell and colleagues proposed model cards as transparency and accountability documentation, clarifying a model's intended use and its performance across groups.[11] DIG extends that lineage from the model to the decision the model influences.
 
+## 9. The action layer: governing AI that acts (added in v1.1, September 2026)
+
+Frontier AI systems now operate real interfaces: a keyboard, a mouse, a terminal, a browser.
+They are becoming digital employees, and the vendors say so themselves. OpenAI designated its
+Astra model the first at the Critical cybersecurity threshold under its Preparedness Framework,
+and names containing "unauthorized, misaligned actions" by the model as a core safeguard
+goal.[12] Anthropic offers one frontier model as two products: generally available with
+additional safety measures, and trusted-access for approved organizations.[13]
+
+Once an AI acts on enterprise information rather than merely reading it, a defensible posture
+answers five questions: What was the AI authorized to see? What was it authorized to decide?
+What was it authorized to do? Who approved that authority? And can the organization
+reconstruct exactly what happened afterward?
+
+The five questions map onto the four pillars without adding a fifth. Authorized access is
+Information Provenance (access scope is provenance in reverse). Delegated decisions and their
+approvals are Decision Traceability (delegation is itself a decision, and the grant belongs in
+the record). Authorized action is Representation Integrity (an agent that sends, posts,
+configures, or transacts represents the company by action). Reconstruction is Audit Readiness
+(action-level trails: tool calls, commands, page loads, and approvals, replayable end to end).
+The canonical definition is unchanged; the record simply runs one step further, from the
+decision to the act.
+
+At the action layer, each maturity level has a concrete marker. Level 1: agents run under
+human credentials, with no inventory, indistinguishable from employees in every log. Level 2:
+agent activity is known and partially logged; scopes are informal. Level 3: agents hold their
+own identities with scoped access, delegation thresholds are written, and actions are
+attributable on request. Level 4: execution boundaries are tested rather than assumed, and
+approvals are recorded at grant time. Level 5: authorization is captured at execution time,
+every action is replayable, and containment is a rehearsed control.
+
 ## References
 
 1. Stanford University HAI, The 2025 AI Index Report, Responsible AI chapter (2024 data). https://hai.stanford.edu/ai-index/2025-ai-index-report/responsible-ai
@@ -89,11 +120,13 @@ The case for auditable, traceable AI decisions rests on established peer-reviewe
 9. Gartner, press release, 4 November 2025 (survey of 360 organizations). https://www.gartner.com/en/newsroom/press-releases/2025-11-04-gartner-survey-finds-regular-ai-system-assessments-triple-the-likelihood-of-high-genai-value
 10. Raji, Smart, et al., Closing the AI Accountability Gap (ACM FAT* 2020), arXiv:2001.00973. https://arxiv.org/abs/2001.00973
 11. Mitchell et al., Model Cards for Model Reporting (ACM FAT* 2019), arXiv:1810.03993. https://arxiv.org/abs/1810.03993
+12. OpenAI, Path to Astra: critical capabilities and frontier safeguards, 1 September 2026. https://openai.com/index/path-to-astra/
+13. Anthropic, Claude Fable 5 and Claude Mythos 5, 2026. https://www.anthropic.com/news/claude-fable-5-mythos-5
 
 ---
 
 ## How to cite
 
-Bertram, Matthew. *Digital Information Governance (DIG): A Reference Framework for Defensible AI-Influenced Decisions*, Version 1.0, 2026. https://digitalinformationgovernance.com
+Bertram, Matthew. *Digital Information Governance (DIG): A Reference Framework for Defensible AI-Influenced Decisions*, Version 1.1, 2026. https://digitalinformationgovernance.com
 
 A related working paper by the same author is archived at Zenodo: *LLM Visibility Glossary and Frameworks (2025 Edition)*, DOI [10.5281/zenodo.17042750](https://doi.org/10.5281/zenodo.17042750).
