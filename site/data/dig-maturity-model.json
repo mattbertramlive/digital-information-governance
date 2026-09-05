@@ -1,0 +1,40 @@
+{
+ "publisher": "Digital Information Governance (DIG®)",
+ "license": "CC BY 4.0",
+ "framework_version": "1.1",
+ "reviewed": "2026-09-05",
+ "name": "DIG Maturity Model",
+ "url": "https://digitalinformationgovernance.com/dig-maturity-model",
+ "levels": [
+  {
+   "level": 1,
+   "name": "Ad hoc",
+   "decision_layer": "AI influences decisions with no durable record.",
+   "action_layer": "Agents run under human credentials; no inventory; actions indistinguishable from employees in every log."
+  },
+  {
+   "level": 2,
+   "name": "Aware",
+   "decision_layer": "Policies exist and some activity is logged; coverage is partial.",
+   "action_layer": "Agent activity is known and partially logged; scopes are informal."
+  },
+  {
+   "level": 3,
+   "name": "Defined",
+   "decision_layer": "The four pillars are standard practice for high-stakes decisions.",
+   "action_layer": "Agents hold scoped identities; delegation thresholds are written; actions attributable on request."
+  },
+  {
+   "level": 4,
+   "name": "Managed",
+   "decision_layer": "Controls are tested rather than assumed; audit-ready on demand.",
+   "action_layer": "Execution boundaries are tested; approvals recorded at grant time; representation monitored."
+  },
+  {
+   "level": 5,
+   "name": "Defensible by default",
+   "decision_layer": "Decision integrity captured automatically at decision time.",
+   "action_layer": "Authorization captured at execution time; every action replayable; containment rehearsed."
+  }
+ ]
+}

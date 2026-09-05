@@ -1,0 +1,30 @@
+{
+ "publisher": "Digital Information Governance (DIG®)",
+ "license": "CC BY 4.0",
+ "framework_version": "1.1",
+ "reviewed": "2026-09-05",
+ "name": "The Five Questions of AI Agent Governance",
+ "url": "https://digitalinformationgovernance.com/ai-agent-governance",
+ "questions": [
+  {
+   "question": "What was the AI authorized to see?",
+   "pillar": "Information Provenance"
+  },
+  {
+   "question": "What was it authorized to decide?",
+   "pillar": "Decision Traceability"
+  },
+  {
+   "question": "Who approved that authority?",
+   "pillar": "Decision Traceability"
+  },
+  {
+   "question": "What was it authorized to do?",
+   "pillar": "Representation Integrity"
+  },
+  {
+   "question": "Can you reconstruct exactly what happened?",
+   "pillar": "Audit Readiness"
+  }
+ ]
+}

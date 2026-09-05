@@ -1,0 +1,51 @@
+{
+ "publisher": "Digital Information Governance (DIG®)",
+ "license": "CC BY 4.0",
+ "framework_version": "1.1",
+ "reviewed": "2026-09-05",
+ "name": "AI Regulation Tracker",
+ "url": "https://digitalinformationgovernance.com/ai-regulation-tracker",
+ "rows": [
+  {
+   "regime": "EU AI Act (Regulation 2024/1689)",
+   "scope": "All providers and deployers placing AI on the EU market, tiered by risk",
+   "status": "In force since August 2024 with staged application. Transparency duties applied in August 2026. The 2026 Digital Omnibus deferred the main high-risk obligations to December 2, 2027 (Annex III stand-alone systems) and August 2, 2028 (AI embedded in Annex I regulated products).",
+   "reviewed": "September 5, 2026"
+  },
+  {
+   "regime": "Texas TRAIGA (HB 149)",
+   "scope": "AI systems in Texas; Attorney-General enforced",
+   "status": "Effective January 1, 2026. Penalties up to 200,000 dollars per uncurable violation and 40,000 dollars per day for continuing violations.",
+   "reviewed": "September 5, 2026"
+  },
+  {
+   "regime": "Colorado AI Act (SB 24-205)",
+   "scope": "Developers and deployers of high-risk AI making consequential decisions",
+   "status": "Enacted 2024; high-risk obligations take effect in 2026, with the exact date amended by the legislature. Confirm the current date before relying on it.",
+   "reviewed": "September 5, 2026"
+  },
+  {
+   "regime": "NYC Local Law 144",
+   "scope": "Automated employment decision tools used for NYC roles",
+   "status": "In effect. Requires annual independent bias audits and candidate notice.",
+   "reviewed": "September 5, 2026"
+  },
+  {
+   "regime": "ISO/IEC 42001:2023",
+   "scope": "Certifiable AI management system standard (voluntary)",
+   "status": "Published December 2023. Certification audits are running; increasingly referenced in procurement.",
+   "reviewed": "September 5, 2026"
+  },
+  {
+   "regime": "NIST AI RMF 1.0",
+   "scope": "Voluntary US risk-management framework",
+   "status": "Published January 2023 (Govern, Map, Measure, Manage). The common vocabulary for US programs; a generative-AI profile followed.",
+   "reviewed": "September 5, 2026"
+  }
+ ],
+ "watchlist": [
+  "California frontier-model legislation",
+  "Brazil Bill 2338",
+  "India AI liability framework"
+ ]
+}
