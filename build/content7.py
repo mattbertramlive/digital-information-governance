@@ -220,6 +220,8 @@ REFS_TIERS = [
   "https://www.anthropic.com/news/claude-fable-5-mythos-5"),
  ("Anthropic, Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders, 2026.",
   "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"),
+ ("OpenAI, GPT-6 Astra: a new generation of intelligence, September 2026.",
+  "https://openai.com/index/gpt-6-astra/"),
 ]
 
 PAGES7.append({
@@ -240,7 +242,7 @@ PAGES7.append({
    '<p class="lead" id="why">Capability tiering became explicit in 2026. When a model\'s abilities cross a vendor\'s own danger thresholds, the vendor no longer chooses between shipping and not shipping; it ships different authorities to different users. That decision used to be internal to labs. Now it is a procurement variable, and a governance record has to capture it.</p>'
    '<h2 id="table">The tiers, by vendor</h2>' +
    deftable([
-     ("OpenAI: Astra","First model designated Critical for cybersecurity under OpenAI\'s Preparedness Framework (September 2026). The broadly available tier refuses advanced cyber requests, including proof-of-concept exploits. Advanced cybersecurity capability is limited to an approved group of testers, expanding to defensive users through the Daybreak Blue program.<sup><a href=\"#r1\">[1]</a></sup>"),
+     ("OpenAI: Astra","First model designated Critical for cybersecurity under OpenAI\'s Preparedness Framework (September 2026). The broadly available tier refuses advanced cyber requests, including proof-of-concept exploits. Advanced cybersecurity capability is limited to an approved group of testers, expanding to defensive users through the Daybreak Blue program.<sup><a href=\"#r1\">[1]</a></sup> Astra shipped generally as GPT-6 Astra in September 2026, described by OpenAI as state-of-the-art on computer use, browsing, software engineering, and cybersecurity, with this tiering in effect at launch.<sup><a href=\"#r4\">[4]</a></sup>"),
      ("Anthropic: Claude Fable 5 / Claude Mythos 5","One underlying frontier model, two products. Fable 5 is generally available with additional safety measures for dual-use capabilities. Mythos 5 is available only to approved organizations under trusted access, with cybersecurity capability extended to defenders through dedicated programs.<sup><a href=\"#r2\">[2]</a></sup><sup><a href=\"#r3\">[3]</a></sup>"),
      ("Other vendors","Added when tiering is announced and verifiable against primary sources. A vendor without published tiering is not listed as untiered; it is listed as unverified."),
    ], head=("Vendor and model","Tiering, as published")) +

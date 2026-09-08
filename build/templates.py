@@ -3,7 +3,7 @@ from lib import esc, jsonld, deslop
 
 DOMAIN   = "https://digitalinformationgovernance.com"
 SITE_NAME = "Digital Information Governance"
-TODAY    = "2026-09-05"      # build stamp (passed in; no Date.now in generator runs)
+TODAY    = "2026-09-08"      # build stamp (passed in; no Date.now in generator runs)
 
 # --- canonical identifiers (entity spine) ---
 PERSON_ID  = "https://matthewbertram.com/#person"     # reuse off-domain canonical -> one entity

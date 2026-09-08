@@ -19,6 +19,8 @@ REFS_AGENT = [
      "https://www.anthropic.com/news/claude-fable-5-mythos-5"),
     ("EU Digital Omnibus, in force July 2026: deferral of the AI Act's main high-risk obligations to December 2, 2027 (Annex III stand-alone systems) and August 2, 2028 (Annex I embedded systems).",
      "https://artificialintelligenceact.eu/"),
+    ("OpenAI, GPT-6 Astra: a new generation of intelligence, September 2026. The launch post describes Astra as state-of-the-art on computer use, browsing, software engineering, and cybersecurity, and confirms the Critical cybersecurity designation under the Preparedness Framework.",
+     "https://openai.com/index/gpt-6-astra/"),
 ]
 
 PAGES6.append({
@@ -50,7 +52,7 @@ PAGES6.append({
      ("Can you reconstruct what happened?","Audit Readiness. Action-level trails: tool calls, page loads, commands, and approvals, replayable end to end."),
    ], head=("Question","Pillar it belongs to")) +
    '<h2 id="frontier">The 2026 frontier context</h2>'
-   '<p>Two developments in 2026 made the action layer impossible to defer. First, OpenAI designated its Astra model Critical for cybersecurity under its Preparedness Framework, the first model at that level: in OpenAI\'s words, with the right tools and access it can find previously unknown security flaws and develop exploits "without a person guiding each step," and access to its most advanced capabilities is gated to approved defensive users.<sup><a href="#r4">[4]</a></sup> Second, Anthropic split one frontier model into two products, a generally available version with additional safety measures and a trusted-access version for approved organizations.<sup><a href="#r5">[5]</a></sup> Capability tiering by the vendor is now a fact of procurement, which means the enterprise question is no longer only which model, but which authority.</p>'
+   '<p>Two developments in 2026 made the action layer impossible to defer. First, OpenAI designated its Astra model Critical for cybersecurity under its Preparedness Framework, the first model at that level: in OpenAI\'s words, with the right tools and access it can find previously unknown security flaws and develop exploits "without a person guiding each step," and access to its most advanced capabilities is gated to approved defensive users.<sup><a href="#r4">[4]</a></sup> Second, Anthropic split one frontier model into two products, a generally available version with additional safety measures and a trusted-access version for approved organizations.<sup><a href="#r5">[5]</a></sup> Astra then shipped generally as GPT-6 Astra, described by OpenAI as state-of-the-art on computer use, browsing, software engineering, and cybersecurity, with the access tiering in effect at launch.<sup><a href="#r7">[7]</a></sup> Capability tiering by the vendor is now a fact of procurement, which means the enterprise question is no longer only which model, but which authority.</p>'
    '<p>Regulation is moving on its own clock. The EU AI Act already makes event logging and human oversight legal duties for high-risk systems,<sup><a href="#r3">[3]</a></sup> and the 2026 Digital Omnibus moved the main high-risk deadlines to late 2027 and 2028.<sup><a href="#r6">[6]</a></sup> A deferred deadline is not a deferred risk: the agents are being deployed now, and the record either exists when the question comes or it does not.</p>'
    '<h2 id="maturity">The maturity model at the action layer</h2>'
    '<p>The <a href="/dig-maturity-model">DIG Maturity Model</a> keeps its five levels. At the action layer, each level has a concrete marker.</p>' +
